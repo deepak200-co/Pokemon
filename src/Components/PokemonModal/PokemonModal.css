@@ -1,0 +1,41 @@
+
+.pokemon-modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pokemon-modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.pokemon-details img {
+    width: 150px;
+    height: 150px;
+}
+
+.pokemon-details h2 {
+    margin-top: 0;
+}

@@ -1,4 +1,4 @@
-.App {
+ .App {
   text-align: center;
 }
 
@@ -35,4 +35,150 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.pokemon-container {
+  width: 90%;
+  display: grid;
+  margin: 20px auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 20px 0;
+  width: 300px;
+  border-radius: 25px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.pagination button, .pagination span {
+  padding: 10px;
+  margin: 0 5px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  cursor: default;
+}
+
+/* App.css */
+
+/* Define styles for different Pokémon types */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.type {
+  margin-top: 5px;
+}
+
+.water {
+  background-color: #6493eb; /* Blue for Water type */
+  color: #fff;
+}
+
+.fire {
+  background-color: #f08030; /* Orange for Fire type */
+  color: #fff;
+}
+
+.grass {
+  background-color: #78c850; /* Green for Grass type */
+  color: #fff;
+}
+
+
+.electric{
+  background-color: rgb(234, 234, 72);
+  color: #fff;
+}
+
+.ground{
+  background-color: #cf591e;
+  color: #fff;
+}
+
+.poison{
+  background-color: #3235df;
+  color: #fff;
+}
+
+.flying{
+  background-color: #2da6b1;
+  color: #fff;
+}
+
+.normal{
+  background-color: #2da6b1;
+  color: #fff;
+}
+
+.bug{
+  background-color: #2db162;
+  color: #fff;
+}
+.fairy{
+  background-color: pink;
+  color: #fff;
+}
+.fighting{
+  background-color: rgb(210, 34, 34);
+  color: #fff;
+}
+
+.psychic{
+  background-color: #edcd6d;
+  color: #fff;
+}
+.rock{
+  background-color: rgb(71, 84, 85);
+  color: #fff;
+}
+.ghost{
+  background-color: rgb(16, 16, 93);
+  color: #fff;
+}
+.ice{
+  background-color: rgb(179, 229, 249);
+  color: #fff;
+}
+.dragon{
+  background-color: rgb(243, 92, 92);
+  color: #fff;
+}
+.dark{
+  background-color: rgb(61, 60, 60);
+  color: #fff;
+}
+.steel{
+   background-color:  #71797E;
+  color: #fff;
 }
