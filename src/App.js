@@ -13,7 +13,7 @@ const App = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPokemonCount, setTotalPokemonCount] = useState(0);
     const [loading, isLoading] = useState(true)
-    const itemsPerPage = 100;
+    const itemsPerPage = 20;
 
     // Fetch all Pokemon on component mount
     useEffect(() => {
